@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+testvenv/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Data files (keep if you want committed datasets; adjust as needed)
+# *.csv
+# *.parquet
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model artifacts / logs
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.log
+
+# Requests / cache
+pip-wheel-metadata/
+
